@@ -4,10 +4,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorld {
+@RequestMapping("/estrategiaDigital")
+public class Cristian {
 
-	@RequestMapping("/")
-	String hellow() {
-		return "Hello World!";
+	@RequestMapping("/pruebaCristian")
+	String saludarCristian() {
+		return "Ola que hacen XD";
 	}
 }
